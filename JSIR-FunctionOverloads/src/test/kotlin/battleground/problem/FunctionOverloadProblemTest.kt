@@ -21,6 +21,7 @@ interface Deletable {
     fun copy(deleted: Boolean): Deletable
 }
 
+// The interface overloading other interfaces
 interface Savable : HasId, Deletable {
     override fun copy(id: String) = copy(id = uid, deleted = deleted)
     override fun copy(deleted: Boolean) = copy(id = uid, deleted = deleted)
