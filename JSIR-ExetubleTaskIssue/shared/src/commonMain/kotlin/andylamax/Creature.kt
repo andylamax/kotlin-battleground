@@ -1,0 +1,3 @@
+package andylamax
+
+interface Creature

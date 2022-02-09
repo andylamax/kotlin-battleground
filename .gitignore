@@ -1,0 +1,13 @@
+.idea
+**/.idea
+
+.gradle
+**/.gradle
+
+**/build
+
+**/local.properties
+local.properties
+
+**/*.hprof
+*.hprof
