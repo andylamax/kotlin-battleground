@@ -14,7 +14,7 @@ kotlin {
     sourceSets {
         val test by getting {
             dependencies {
-                implementation(kotlin("test"))
+                implementation("tz.co.asoft:expect-coroutines:1.4.61")
             }
         }
     }

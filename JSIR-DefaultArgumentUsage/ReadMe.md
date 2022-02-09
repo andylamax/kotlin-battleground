@@ -4,6 +4,8 @@ JSIR - `@JSExports` breaks the compiler when function arguments are being used t
 
 Kotlin: 1.6.10
 
+Issue: [KT-51222](https://youtrack.jetbrains.com/issue/KT-51222)
+
 ## Problem
 
 When a function takes more than one argument, any attempt to use a previous argument to set the value of its successive argument, the JSIR compiler fails with a weird error
