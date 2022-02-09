@@ -77,6 +77,4 @@ Overloading should work the same as it does in Kotlin/JVM and Kotlin/Native
 
 - ### Avoid function overloads
 
-The best way to not have a problem is to not have it at all.
-
-see [AvoidOverloadingWorkaroundTest](./src/test/kotlin/battleground/workaround_02/AvoidOverloadingWorkaroundTest.kt)
+The best way to not have a problem is to not have it at all. see [AvoidOverloadingWorkaroundTest](./src/test/kotlin/battleground/workaround_02/AvoidOverloadingWorkaroundTest.kt)
