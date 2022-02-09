@@ -70,6 +70,13 @@ Overloading should work the same as it does in Kotlin/JVM and Kotlin/Native
 
 ## Workaround
 
-1. Avoid using `@JsExport` when you can, coz as show in [RemoveJsExportWorkaroundTest](./src/test/kotlin/battleground/workaround_01/RemoveJsExportWorkaroundTest.kt), it just happens to work
-1. Avoid overloads all together, the best way to not have a problem is to not have it at all.
-   see [AvoidOverloadingWorkaroundTest](./src/test/kotlin/battleground/workaround_02/AvoidOverloadingWorkaroundTest.kt)
+- ### Avoid using `@JsExport`
+
+  This problem appears to happen only when you mark interfaces and classes with `@JsExport`, so if you can, avoid using `@JsExport`. Coz as show
+  in [RemoveJsExportWorkaroundTest](./src/test/kotlin/battleground/workaround_01/RemoveJsExportWorkaroundTest.kt), it just happens to work
+
+- ### Avoid function overloads
+
+The best way to not have a problem is to not have it at all.
+
+see [AvoidOverloadingWorkaroundTest](./src/test/kotlin/battleground/workaround_02/AvoidOverloadingWorkaroundTest.kt)
