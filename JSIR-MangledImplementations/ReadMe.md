@@ -4,6 +4,8 @@ JSIR - `@JSExports` still mangles properties even when marked as `@JsExport`
 
 Kotlin: 1.6.10
 
+Fixed: 1.6.20-M1
+
 Issue: [KT-45727](https://youtrack.jetbrains.com/issue/KT-45727)
 
 ## Prelude
