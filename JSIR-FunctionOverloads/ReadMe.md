@@ -4,6 +4,8 @@ JSIR - Default Function overloads are broken when marked with `@JSExports`
 
 Kotlin: 1.6.10
 
+Fixed: 1.6.20-M1
+
 Issue : [KT-51222](https://youtrack.jetbrains.com/issue/KT-51222https://youtrack.jetbrains.com/issue/KT-51222)
 
 ## Problem
