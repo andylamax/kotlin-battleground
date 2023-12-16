@@ -11,3 +11,18 @@ interface Optional<out T> {
 
     fun valueOrThrow(): T = valueOrThrow(NoSuchElementException("Optional has no value"))
 }
+
+
+abstract class None<out T : Any> private constructor() : Optional<T> {
+    @PublishedApi
+    internal companion object : None<Nothing>()
+
+    /** // Workaround
+    @PublishedApi
+    internal companion object {
+        val instance by lazy { None<Nothing>() }
+    }
+    */
+
+    override fun valueOrThrow(exp: Throwable): Nothing = throw exp
+}
