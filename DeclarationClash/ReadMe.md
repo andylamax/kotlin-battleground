@@ -15,7 +15,7 @@ annotation, the compiler still errors with
 
 ### Reproducer
 
-Reproducer can be found at [common main kotlin sources](./src/commonMain/kotlin/kase)
+Reproducer can be found at [Optional.kt](./src/commonMain/kotlin/kase/Optional.kt)
 
 ### Elaboration
 
