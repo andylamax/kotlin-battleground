@@ -1,5 +1,5 @@
 plugins {
-    kotlin("js") version "1.6.10"
+    kotlin("multiplatform") version "2.0.0-Beta2"
 }
 
 repositories {
@@ -12,7 +12,7 @@ kotlin {
     }
 
     sourceSets {
-        val test by getting {
+        val jsTest by getting {
             dependencies {
                 implementation(kotlin("test"))
             }
